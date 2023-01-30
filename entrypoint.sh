@@ -1,5 +1,6 @@
 #!/bin/bash
 
+/book-searcher index -f *.csv
 /book-searcher run -b '0.0.0.0:7070' &
 
 cp /nginx.conf /etc/nginx/conf.d/server.conf 
